@@ -1,0 +1,112 @@
+body {
+    background-color: #757575;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+   
+
+   #carousel-exemplo .carousel-item img {
+    width: 300px; 
+    height: auto;
+    
+}
+
+
+#carousel-exemplo {
+
+    max-height: 400px;
+
+}
+
+.carousel-item img {
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #202020;
+}
+
+.navbar {
+    background-color: #343a40;
+    padding: 15px;
+
+    
+}
+
+
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.carousel-inner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+ 
+    background-color: transparent;
+
+}
+
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-indicators {
+    margin-bottom: 20px;
+}
+
+.carousel-indicators button {
+    background-color: #007bff;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    margin-top: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.container {
+    padding: 20px;
+}
